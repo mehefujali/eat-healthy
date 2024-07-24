@@ -14,4 +14,24 @@
         font-size: 2rem;
     }
 
+    .hero-des {
+
+        margin: 25px 0;
+
+    }
+
+    .about-me-main-con {
+        height: auto;
+        padding: 20px 0;
+        margin-top: 50px;
+    }
+
+    .about-me-contenar {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .about-text-part {
+        max-width: 100%;
+    }
 }

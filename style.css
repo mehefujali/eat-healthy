@@ -5,13 +5,19 @@
     font-family: "Poppins";
 }
 
+.defult-font-3 {
+    font-size: 3rem;
+}
+
 
 /* Hero section  */
 
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
 
 }
 
@@ -52,4 +58,46 @@
     position: relative;
     left: -82px;
     top: -35px;
+}
+
+
+
+/* About me section  */
+
+.about-me-main-con {
+    background-color: rgba(252, 143, 73, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 600px;
+    margin-bottom: 100px;
+    background-image: url(./assets/images/shapes/7.png);
+    background-size: cover;
+}
+
+.about-me-contenar {
+    max-width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.about-me-img {
+    height: 536px;
+}
+
+.about-text-part {
+    max-width: 40%;
+}
+
+.about-title {
+    font-size: 3rem;
+    color: rgb(87, 87, 87);
+}
+
+.about-text-part p {
+    margin-top: 32px;
+    margin-bottom: 90px;
 }
