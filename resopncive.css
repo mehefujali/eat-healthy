@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .hero-img {
+        width: 100%;
+        position: static;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+}
